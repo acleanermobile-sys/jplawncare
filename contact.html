@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | JPLawnCare</title><meta name="description" content="Family-owned lawn care in Imperial Valley, California."><style>:root{--g:#2e6b34;--gd:#1f4a24;--bg:#fff;--tx:#222;--soft:#f3f7f2}
+*{box-sizing:border-box}
+body{margin:0;font-family:Helvetica,Arial,sans-serif;color:var(--tx);background:var(--bg);line-height:1.6}
+a{color:inherit}
+header{display:flex;justify-content:space-between;align-items:center;padding:14px 5%;background:#fff;position:sticky;top:0;z-index:5;box-shadow:0 1px 6px #0002}
+.logo{font-weight:700;font-size:1.4rem;color:var(--g);text-decoration:none}
+nav a{margin-left:22px;text-decoration:none;font-weight:600}
+nav a:hover{color:var(--g)}
+.btn{display:inline-block;background:var(--g);color:#fff;padding:12px 28px;border-radius:4px;text-decoration:none;font-weight:600;border:0;cursor:pointer;font-size:1rem}
+.btn:hover{background:var(--gd)}
+.hero{min-height:70vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;color:#fff;padding:60px 5%;background-size:cover;background-position:center}
+.hero p{font-size:1.2rem;max-width:600px;margin:0 0 10px}
+.hero h1{font-size:clamp(2.5rem,7vw,4.5rem);margin:0 0 24px}
+section{padding:70px 5%}
+.wrap{max-width:1100px;margin:0 auto}
+.eyebrow{color:var(--g);text-transform:uppercase;letter-spacing:2px;font-size:.85rem;font-weight:700}
+h2{font-size:2.2rem;margin:.2em 0}
+.about{background:var(--soft)}
+.about .imgs{display:flex;flex-wrap:wrap;gap:16px;margin-top:30px}
+.about .imgs img{flex:1 1 280px;max-width:100%;height:239px;object-fit:cover;border-radius:4px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:24px;margin-top:30px}
+.card{text-align:center}
+.card img{width:100%;aspect-ratio:286/335;object-fit:cover;border-radius:4px}
+.card h3{margin:14px 0 10px}
+.page-hero img{width:100%;max-height:300px;object-fit:cover}
+form{max-width:600px;display:grid;gap:14px;margin-top:20px}
+form .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+input,select,textarea{width:100%;padding:10px;border:1px solid #bbb;border-radius:4px;font:inherit}
+label{font-size:.9rem;font-weight:600;display:block;margin-bottom:4px}
+.info p{margin:.2em 0}
+footer{background:var(--gd);color:#fff;text-align:center;padding:40px 5%}
+footer a{text-decoration:none}
+footer .links a{margin:0 8px;font-size:.9rem;opacity:.85}
+@media(max-width:600px){nav a{margin-left:12px;font-size:.9rem}form .row{grid-template-columns:1fr}}
+</style></head><body>
+<header><a class="logo" href="index.html">JPLawnCare</a><nav><a href="index.html">Home</a><a href="index.html#about">About Us</a><a href="index.html#services">Our Services</a><a href="contact.html">Contact</a></nav></header>
+<div class="page-hero"><img src="images/contact-hero.jpg" alt="Imperial Valley"></div>
+<section><div class="wrap"><h1>Contact Us</h1><h2>Let's Chat</h2><div class="info"><p><strong>Phone</strong><br>(760)-879-9226</p><p><strong>Email</strong><br>cabrj303@hotmail.com</p></div>
+<!-- Replace YOUR_FORM_ID with your Formspree form ID (formspree.io) -->
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<div class="row"><div><label>First Name</label><input name="first_name" required></div><div><label>Last Name</label><input name="last_name" required></div></div>
+<div class="row"><div><label>Service</label><select name="service"><option value="">Choose an option</option><option>Lawn Maintenance</option><option>Irrigation Maintenance</option><option>Tree Services</option><option>Weed Control</option><option>Sod Installation</option><option>Gardening</option><option>Mulching</option><option>Special Requests</option></select></div>
+<div><label>Preferred Contact</label><select name="contact_method"><option value="">Choose an option</option><option>Phone</option><option>Email</option></select></div></div>
+<div class="row"><div><label>Phone</label><input type="tel" name="phone"></div><div><label>Email</label><input type="email" name="email" required></div></div>
+<div><label>Message</label><textarea name="message" rows="5"></textarea></div><button class="btn" type="submit">Send</button></form></div></section>
+<footer><h3>JPLawnCare</h3><p>Your Satisfaction is Our Priority</p><p><a href="tel:7608799226">760-879-9226</a><br><a href="mailto:cabrj303@hotmail.com">cabrj303@hotmail.com</a></p><p>Imperial Valley, California 92251, USA</p>
+<p class="links"><a href="#">Privacy Policy</a><a href="#">Accessibility Statement</a><a href="#">Terms &amp; Conditions</a><a href="#">Refund Policy</a></p><p>© 2023 by JPLawnCare. All rights reserved.</p></footer></body></html>
